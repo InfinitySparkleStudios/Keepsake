@@ -12,8 +12,8 @@ Customers get a private, PIN-protected keepsake for their jewellery. They open i
 
 ## Where it lives
 
-- Customer app: https://infinitysparklestudios.github.io/ISS_Sales/keepsake/
-- Admin: https://infinitysparklestudios.github.io/ISS_Sales/keepsake/admin.html
+- Customer app: https://infinitysparklestudios.github.io/Keepsake/
+- Admin: https://infinitysparklestudios.github.io/Keepsake/admin.html
 - Database: **Infinity CRM** (Supabase project `zyxwadchlypfkwkqprdm`), in the `keepsake_*` tables and the private `keepsake` photo storage.
 - Back-end function: `keepsake`, deployed in Infinity CRM.
 
@@ -40,4 +40,4 @@ In admin.html, choose **Kind: Wedding app** when you create a keepsake. The coup
 - **Our wedding:** details, programme, dress code, story, theme colour, the RSVP and photo-wall switches, the guest link and QR, and printable table QR cards (4 per A4 page).
 - **Guests:** add names (one invitation per line, e.g. "Jan & Sanet Botha, 2"), see who's coming and their dietary needs, and download the list.
 
-Guests use the link `…/keepsake/?e=<guest link code>`. They don't need a PIN. They can read the details, RSVP by typing part of their name, and add photos (up to 10 at a time, 800 per event). Guest photos go into the couple's private keepsake.
+Guests use the link `…/Keepsake/?e=<guest link code>`. They don't need a PIN. They can read the details, RSVP by typing part of their name, and add photos (up to 10 at a time, 800 per event). Guest photos go into the couple's private keepsake.
